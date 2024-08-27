@@ -8,8 +8,7 @@ In the course of this project i will be doing the following:
 * Package and publish microservices using Docker
 * Develop a microservices application on  development computer using Docker Compose
 * Test my code, microservices, and application using Jest and Playwright
-* Integrate third-party servers into my application (like MongoDB and
-* RabbitMQ, as examples)
+* Integrate third-party servers into my application (like MongoDB and RabbitMQ, as examples)
 * Communicate between microservices using HTTP and RabbitMQ messages
 * Store the data and files my microservices need to operate
 * Deploy my microservices to a production Kubernetes cluster on GCP
