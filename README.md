@@ -14,3 +14,11 @@ In the course of this project i will be doing the following:
 * Deploy my microservices to a production Kubernetes cluster on GCP
 * Create production infrastructure using Terraform
 * Create a continuous deployment pipeline that automatically deploys my application as i push changes to my code repository on GitHub
+
+### Tools
+
+* **Docker:** To package and publish our services
+* **Docker Compose:** To test our microservices application on our development computer
+* **Kubernetes:** To host our application in the cloud
+* **Terraform:** To build our production infrastructure in the cloud
+* **GitHub Actions:** To build a continuous deployment pipeline.
