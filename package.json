@@ -1,0 +1,15 @@
+{
+  "name": "end-to-end-microservices-with-docker-kubernetes-terraform-gcp-github-actions",
+  "version": "1.0.0",
+  "description": "In this project, we will be building microservices applications by deploying complex microservices application to production using Docker, Kubernetes, Terraform, Github Actions and Google Cloud Platform (GCP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
