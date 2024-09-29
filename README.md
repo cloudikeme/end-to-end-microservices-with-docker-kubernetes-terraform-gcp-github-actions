@@ -22,3 +22,13 @@ In the course of this project i will be doing the following:
 * **Kubernetes:** To host our application in the cloud
 * **Terraform:** To build our production infrastructure in the cloud
 * **GitHub Actions:** To build a continuous deployment pipeline.
+
+## The Microservice Application
+  
+![alt text](image.png)
+
+Core Services: FrontEnd, C4P Service, Agenda Service, Notifications Service
+
+Databases: PostgreSQL, Redis
+
+Message Broker: Kafka
