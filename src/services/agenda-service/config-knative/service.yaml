@@ -48,5 +48,5 @@ spec:
               port: 8080
           readinessProbe:
             httpGet:
-              path: /health/liveness
+              path: /halth/liveness
               port: 8080
