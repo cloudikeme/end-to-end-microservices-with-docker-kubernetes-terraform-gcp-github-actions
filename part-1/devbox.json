@@ -1,0 +1,50 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.0/.schema/devbox.schema.json",
+    "packages": [
+      "python@3.13.0rc2",
+      "pipenv",
+      "pipenv@2024.0.1",
+      "nodejs@22.8.0",
+      "yq-go@4.41.1",
+      "pipx@1.7.1",
+      "jq@1.7.1",
+      "kubectl@1.29.2",
+      "gh@2.56.0",
+      "gh-copilot@1.0.1",
+      "git@2.46.0",
+      "kustomize@5.3.0",
+      "kubernetes-helm@3.14.1",
+      "go@1.23.1",
+      "kubectx@0.9.5",
+      "kube-linter@0.6.8",
+      "gh@2.44.1",
+      "yq-go@4.41.1",
+      "jq@1.7.1",
+      "git@latest",
+      "kubernetes-helm@3.14.1",
+      "nodejs_21@21.6.2",
+      "nodePackages.cdk8s-cli@2.198.37",
+      "kind@0.24.0",
+      "yarn@1.22.22",
+      "terraform@1.9.6"
+    ],
+    "shell": {
+      "init_hook": [
+        "alias cat='bat --paging never --theme DarkNeon --style plain'",
+        "alias ls='eza --long --color always --all --no-permissions --no-user --no-user --no-time --no-filesize --git'",
+        "alias p='cd ~/dev/github'",
+        "alias b='cd ..'",
+        "alias k='kubectl'",
+        "alias a='git add .'",
+        "alias s='git commit -m \"$@\"'",
+        "alias d='git push -u origin main'",
+        "alias e='git push -u upstream main'",
+        "alias q='git push -u origin dev'"
+      ],
+      "scripts": {
+        "test": [
+          "echo \"Error: no test specified\" && exit 1"
+        ]
+      }
+    }
+  }
